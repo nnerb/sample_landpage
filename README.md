@@ -1,54 +1,62 @@
-# React + TypeScript + Vite
+# Junior Front-End Developer Exam Submission
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Applicant Information
 
-Currently, two official plugins are available:
+- **Name:** Brenn Aldwin A. Santiago
+- **Date:** [03/27/2025]
+- **Position:** Junior Front-End Developer
+- **Version:** 1.0
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## Expanding the ESLint configuration
+This project is a front-end implementation of the provided Figma design. It is built with clean, maintainable code while following best practices for performance, accessibility, and responsiveness.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Technologies Used
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- HTML, CSS (SCSS), JavaScript
+- React
+- No CSS frameworks
+- Vanilla JavaScript
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Installation & Setup
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Clone the repository**
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+   ```sh
+   git clone https://github.com/nnerb/sample_landpage.git
+   cd sample_landpage
+   ```
+
+2. **Install dependencies**
+
+   ```sh
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```sh
+   npm run dev  # or npm start (if applicable)
+   ```
+
+4. **Build for production**
+   ```sh
+   npm run build
+   ```
+
+## Features & Requirements
+
+✔️ Fully responsive (PC & smartphone breakpoints)  
+✔️ Cross-browser compatibility (Chrome, Firefox, Edge, etc.)  
+✔️ Retina-compatible images  
+✔️ Optimized for Google PageSpeed  
+✔️ Clean and maintainable code
+
+## Notes
+
+- All assets and styles are structured based on best practices.
+- If any issues arise, feel free to contact me at brennaldwin.santiago@gmail.com
+
+---
+
+### Thank you for reviewing my submission! 🚀
