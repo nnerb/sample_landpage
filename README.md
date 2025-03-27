@@ -13,7 +13,7 @@ This project is a front-end implementation of the provided Figma design. It is b
 
 ## Technologies Used
 
-- HTML, CSS (SCSS), JavaScript
+- HTML, CSS, JavaScript, TypeScript
 - React
 - No CSS frameworks
 - Vanilla JavaScript
