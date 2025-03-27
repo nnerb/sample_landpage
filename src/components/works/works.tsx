@@ -1,12 +1,12 @@
 import { useState, MouseEvent } from "react";
-import first from "../../assets/images/first.png";
-import second from "../../assets/images/second.png";
-import third from "../../assets/images/third.png";
-import fourth from "../../assets/images/fourth.png";
-import first2x from "../../assets/images/first2x.png";
-import second2x from "../../assets/images/second2x.png";
-import third2x from "../../assets/images/third2x.png";
-import fourth2x from "../../assets/images/fourth2x.png";
+import first from "../../assets/images/first.webp";
+import second from "../../assets/images/second.webp";
+import third from "../../assets/images/third.webp";
+import fourth from "../../assets/images/fourth.webp";
+import first2x from "../../assets/images/first2x.webp";
+import second2x from "../../assets/images/second2x.webp";
+import third2x from "../../assets/images/third2x.webp";
+import fourth2x from "../../assets/images/fourth2x.webp";
 import "./works.css";
 
 interface WorkItem {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import sony from "../../assets/images/sony.png";
+import sony from "../../assets/images/sony.webp";
 import "./footer.css";
 
 interface PartnerItem {

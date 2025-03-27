@@ -1,6 +1,6 @@
 import "./header.css"
-import buildings from "../../assets/images/buildings.png"
-import buildings2x from "../../assets/images/buildings2x.png"
+import buildings from "../../assets/images/buildings.webp"
+import buildings2x from "../../assets/images/buildings2x.webp"
 import NavbarDesktop from "./_components/navbar-desktop";
 
 const Header = () => {
