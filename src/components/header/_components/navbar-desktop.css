@@ -1,0 +1,42 @@
+@import url("../../../index.css");
+
+@media(min-width: 376px) {
+
+  .nav-desktop {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: #FFFFFF;
+    width: 1160px;
+    height: 83px;
+    gap: 44px;
+    align-items: center;
+    padding: 26px 35px;
+    transform: translate(11%, -25%);
+  }
+
+
+  .nav-desktop-date {
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    color: rgba(126, 126, 126, 1);
+    font-weight: 400;
+  }
+
+  .nav-desktop-cntr {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+  }
+
+
+  .nav-desktop-item {
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+  }
+
+
+}

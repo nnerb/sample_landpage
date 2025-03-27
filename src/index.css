@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: local("BebasNueue Regular"),
+       url("../src/assets/fonts/BebasNeue-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Reboto Regular"),
+       url("../src/assets/fonts/Roboto-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: local("NotoSans Regular"),
+       url("../src/assets/fonts/NotoSans-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "NotoSansJP-Regular";
+  src: local("NotoSansJP Regular"),
+       url("../src/assets/fonts/NotoSansJP-Regular.ttf") format("woff");
+}
+
+
+:root {
+  --text-custom-black: rgba(34, 34, 34, 1);
+  --text-custom-red: rgba(185, 32, 19, 1);
+  --text-custom-red-secondary: rgba(91, 13, 7, 1);
+  --text-custom-gray: rgba(126, 126, 126, 1);
+  --text-custom-secondary-black: rgba(38, 37, 37, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "BebasNeue-Regular";
+}
+
+.container {
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
